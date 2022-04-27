@@ -1,0 +1,29 @@
+{
+  "name": "newsproject",
+  "version": "1.0.0",
+  "description": "Hi! I'm Thang Than Thanh, Nice to meet you!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conqueror135/News.git"
+  },
+  "author": "conqueror666",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Conqueror135/News/issues"
+  },
+  "homepage": "https://github.com/Conqueror135/News#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "moleculer": "^0.14.20",
+    "moleculer-db": "^0.8.17",
+    "moleculer-repl": "^0.7.0",
+    "moleculer-web": "^0.10.4"
+  }
+}
